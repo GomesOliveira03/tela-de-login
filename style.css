@@ -1,5 +1,35 @@
+#body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
 #div-form{
     align-items: center;
     justify-content: center;
-    color: blue;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(104, 104, 104);
+    width: 20%;
+    height: 200px;
+    
+}
+
+#form{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.input{
+    width: 100%;
+    border: 0cap;
+    border-radius: 2px;
+    align-items: center;
+    margin: 4%;
+    text-emphasis: none;
 }
