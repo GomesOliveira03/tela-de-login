@@ -1,31 +1,61 @@
 #body{
+    background-color: red;
     align-items: center;
     justify-content: center;
     display: flex;
+    height: 100%;
+}
+
+#corpo{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+    margin: 9%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
 }
 #div-form{
+    color: white;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     background-color: rgb(104, 104, 104);
-    width: 20%;
-    height: 200px;
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    border-radius: 10px;
     
 }
 
+#lateral02{
+    background-color: aqua;
+    height: 40%;
+    width: 40%;
+    margin: 5%;
+}
+
+
+
 #form{
-    background-color: blue;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin: 2%;
+    width: 50%;
+    height: 100%;
 
 }
 
 .input{
+    background-color: black;
+    opacity: 40%;
+    color: white;
     width: 100%;
+    height: 20px; 
     border: 0cap;
     border-radius: 2px;
     align-items: center;
